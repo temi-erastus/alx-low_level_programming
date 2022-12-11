@@ -12,7 +12,7 @@ int main(void)
 	numz = 0;
 	while (numz < 10)
 	{
-		putchar(numz);
+		putchar(numz + '0');
 		numz++;
 	}
 	putchar('\n');
